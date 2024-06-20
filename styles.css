@@ -1,5 +1,176 @@
+html{
+  min-height: 100%;
+  overflow: hidden;
+}
+
 body {
+  color: rgb(255, 255, 255);
   margin: 0;
-  background: pink;
+  background: rgb(14, 14, 14);
   text-align: center;
+  text-shadow: 0 0 1px #fff, 0 0 2px #acacac;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+
+  flex-wrap: wrap;
+}
+
+.first-screen {
+  color: rgb(255, 255, 255);
+  margin: 0;
+  background: rgb(14, 14, 14);
+  text-align: center;
+  text-shadow: 0 0 1px #fff, 0 0 2px #acacac;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+
+  flex-wrap: wrap;
+
+  animation-name: gone;
+  animation-duration: 0.5s;
+  animation-delay: 6s;
+  animation-fill-mode: forwards;
+
+
+}
+
+@keyframes gone {
+  from {
+    height: 100%;
+  }
+  to {
+    height: 0px;
+  }
+  
+}
+
+
+
+
+.title-card {
+  
+  color: rgb(255, 255, 255);
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 8em;
+  margin-top: 10vh;
+  width: 100%;
+  flex: 0 0 100%; 
+  /*text-shadow: 0 0 5px #fff, 0 0 10px #c97751, 0 0 15px #a7714d, 
+  0 0 20px #e08e31, 0 0 25px #e46612, 0 0 30px #eb4f08, 0 0 35px #ff7e05;*/
+  animation-name: glow;
+  animation-duration: 2s;
+
+  text-shadow: 0 0 3px #fff, 0 0 4px #d4d4d4, 0 0 5px #999999, 
+    0 0 6px #8b8b8b;
+}
+
+@keyframes glow {
+  from {text-shadow: 0 0 40px #fff, 0 0 50px #e2e2e2, 0 0 60px #afafaf;
+  }
+  to {text-shadow: 0 0 3px #fff, 0 0 4px #d4d4d4, 0 0 5px #999999, 
+    0 0 6px #8b8b8b;
+  }
+}
+
+
+
+.useraccount p{
+  height: 100%;
+ 
+  justify-content: center;
+  align-items: center;
+  text-align: top;
+  margin-bottom: auto;
+  margin-top: 0px;
+}
+
+.useraccount p span:nth-child(1) {
+  color: lime;
+  text-shadow: 0 0 1px #4df519, 0 0 2px #b3f36a;
+}
+
+.useraccount p span:nth-child(2) {
+  color: white;
+}
+
+.useraccount p span:nth-child(3) {
+  color: rgb(107, 107, 238);
+  text-shadow: 0 0 1px #877bf7, 0 0 2px #a0baff;
+}
+
+.typewriter {
+  margin-left: 1em;
+  
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  
+  
+}
+
+.typewriter p {
+  
+  align-self: flex-start;
+  
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+  border-right: .55em solid white; /* The typwriter cursor */
+  white-space: nowrap; /* Keeps the content on a single line */
+  margin: 0 ; /* Gives that scrolling effect as the typing happens */
+  letter-spacing: .01 em; /* Adjust as needed */
+  width: 0%;
+ 
+
+  animation: 
+    typing 3s steps(26, end);
+  
+  animation-delay: 2s;
+  
+}
+
+/* The typing effect */
+@keyframes typing {
+  0% { width: 0% }
+  60% { width: 100% }
+  100% { width: 100%}
+}
+
+
+
+
+
+.second-screen {
+  background-color: rgb(32, 32, 32);
+  opacity: 0%;
+  color: rgb(43, 255, 0);
+  text-shadow: 0 0 1px #4df519, 0 0 2px #b3f36a;
+  height: 100vh;
+  width: 100vw;
+  animation-name: appear;
+  animation-duration: 1s;
+  animation-delay: 6s;
+  animation-fill-mode: forwards;
+  
+}
+
+.second-screen div {
+  width: 80%;
+  height: 80%;
+  border: 2px solid lime;
+  margin: auto;
+  box-shadow: 0px 0px 10px rgba(81, 255, 1, 0.966); /* Box shadow */
+
+}
+
+
+@keyframes appear {
+  from {
+    opacity: 0%;
+  } 
+  to {
+    opacity: 100%;
+  }
 }
