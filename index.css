@@ -138,7 +138,7 @@ body {
   width: 100vw;
   animation-name: appear;
   animation-duration: 1s;
-  animation-delay: 6s;
+  animation-delay: 0.5s;
   animation-fill-mode: forwards;
   
 }
