@@ -14,12 +14,19 @@ body {
   flex-direction: row;
 
   flex-wrap: wrap;
+
+  background-color: black;
+  background-image: radial-gradient(
+    rgba(80, 80, 80, 0.75), black 120%
+  );
+  
 }
 
 .first-screen {
   color: rgb(255, 255, 255);
   margin: 0;
-  background: rgb(14, 14, 14);
+  
+
   text-align: center;
   text-shadow: 0 0 1px #fff, 0 0 2px #acacac;
   display: flex;
