@@ -1,5 +1,4 @@
-# blog
-
+# Blog
 
 This is my blog! 
 
