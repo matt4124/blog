@@ -5,3 +5,4 @@ As a personal project in order to get better at my circuit theory and programmin
 
 I decided to program this simulator in RUST, mostly because I like the language 
 
+![](./images/rust-web-logo.jpg)
