@@ -3,9 +3,9 @@
 
 
 Images:
-![Project Explanation](/images/uni_projects/sustainability_project_explanation.JPG)
+![Project Explanation](/blog/images/uni_projects/sustainability_project_explanation.JPG)
 
-![Project Explanation](/images/uni_projects/sustainability_project_demonstration.gif)
+![Project Explanation](/blog/images/uni_projects/sustainability_project_demonstration.gif)
 
 - Developing a plan to improve the current metro train network efficiency
   - Efficiency measured in how quickly and effectively can we move people en mass.
