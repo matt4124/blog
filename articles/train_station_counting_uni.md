@@ -2,7 +2,7 @@
 *Semester 1, 2025*
 
 
-Images:
+Images for demonstration:
 ![Project Explanation](/blog/images/uni_projects/sustainability_project_explanation.JPG)
 
 ![Project Explanation](/blog/images/uni_projects/sustainability_project_demonstration.gif)
