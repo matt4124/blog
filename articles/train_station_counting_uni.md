@@ -1,4 +1,4 @@
-## Improving the train station efficiency for ENG30002 - Engineering Technology Sustainability Project
+# Improving the train station efficiency for ENG30002 - Engineering Technology Sustainability Project
 *Semester 1, 2025*
 
 #### The Problem
@@ -8,12 +8,14 @@ Our group initially decided to opt for the challenge of improving the efficiency
 Obviously this was a very general problem, so we narrowed it down to specifically improving the ability of the train network to more efficiently move people to their destinations.
 The general idea behind this was basically to attract more people towards public transport, thus reducing cars on the road. 
 
-#### The Solution
+#### The Project Solution
 The solution we came to was basically a way to try to optimise the train times and number of train carriages of each individual train. 
-Our method to achieve this was a workflow, where data on the number of people was collected for each train platforms via security camera/ptv, then sent to an AI in order to predict the future number of people at each platform. This information would then be used in deciding on train times, and how many train carriages to send for each route.  
-![Project Plan](/blog/images/uni_projects/sustainability_project_plan.JPG)
+Our method to achieve this was a workflow, where data on the number of people was collected for each train platforms via platform sensors/cameras/ptv, then sent to an AI in order to predict the future number of people at each platform. This information would then be used in deciding on train times, and how many train carriages to send for each route.  
+![Project Plan](/blog/images/uni_projects/sustainability_project_plan.png)
 
-My part in this project was to develop get the PTV data and to develop a technique to count the number of individuals at each train station. 
+#### My Part 
+My part in this project was the initial part of the workflow, where the number of people at each platform would be obtained and sent to 
+
 
 ![Project Explanation](/blog/images/uni_projects/sustainability_project_explanation.JPG)
 
