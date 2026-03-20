@@ -15,10 +15,7 @@ Our method to achieve this was a workflow, where data on the number of people wa
 
 #### My Part 
 My part in this project was the initial part of the workflow, where the number of people at each platform would be obtained and sent to the AI for predicting the future number of people. At first I explored a couple of options, platform pressure sensors, IR sensors and even a wifi network to count the number of phones in the area. Eventually though I settled for people counting via an image AI connected to a camera. 
-There were a few advantages of this approach, for one the image AI is one of the most accurate methods. As well, many train station platforms around Melbourne already possess security cameras. Which can be accessed securely. 
-
-
-
+There were a few advantages of this approach, for one the image AI is one of the most accurate methods. As well, many train station platforms around Melbourne already possess security cameras, which can be accessed securely.  
 
 
 ![Project Explanation](/blog/images/uni_projects/sustainability_project_explanation.JPG)
