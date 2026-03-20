@@ -1,7 +1,7 @@
 ## Improving the train station efficiency for ENG30002 - Engineering Technology Sustainability Project
 *Semester 1, 2025*
 
-**The Problem**
+**The Problem**  
 During this project we were tasked as a group to design a solution to a sustainability challenge within our chosen majors. 
 Within my group we had 2 software majors, 1 mechatronics and 1 electrical/electronic engineering major (me).
 Our group initially decided to opt for the challenge of improving the efficiency of the Melbourne metro train network. 
