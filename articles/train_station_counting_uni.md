@@ -17,6 +17,9 @@ Our method to achieve this was a workflow, where data on the number of people wa
 My part in this project was the initial part of the workflow, where the number of people at each platform would be obtained and sent to the AI for predicting the future number of people. At first I explored a couple of options, platform pressure sensors, IR sensors and even a wifi network to count the number of phones in the area. Eventually though I settled for people counting via an image AI connected to a camera. 
 There were a few advantages of this approach, for one the image AI is one of the most accurate methods. As well, many train station platforms around Melbourne already possess security cameras, which can be accessed securely.  
 
+Initially I attempted to train my own convolutional neural network on people counting datasets from the web. I ran into issues with the performance of my CNN, mainly it was bad at dealing with different image dimensions, and generalising to new images. A part of this may have been due to the datasets I was using.  
+
+After this I moved onto implementing CSRNet, I used pretrained weights and trained it further on some specific datasets to better generalise to train station platforms. The following explains my data flow and the demonstrates an implementation that uses live footage taken from a public camera in Rome, Italy. 
 
 ![Project Explanation](/blog/images/uni_projects/sustainability_project_explanation.JPG)
 
