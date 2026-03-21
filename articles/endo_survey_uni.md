@@ -14,12 +14,8 @@ Upon completing the survey, the AI would also provide some SHAP results, which i
 
 #### My Part
 My role in the project was to find and train the AI algorithm on a dataset of survey data labelled with an associated endometriosis diagnosis (positive or negative result). I worked with another group member on this, where we both trained an assortment of AI algorithms:
-![Trained AI Models](/blog/images/uni_projects/endo_ai_models.JPG). 
-An interesting AI model from this is the bayesian neural network. This uses 
+![Trained AI Models](/blog/images/uni_projects/endo_ai_models.JPG)  
+Each of the above models were compared in terms of a number of different performance measures (Each score was converted to a percentage and averaged to produce a cumulative score):
+![AI Models Compared Performance](/blog/images/uni_projects/endo_ai_model_comparisons.JPG) 
 
-
-- Designed an AI to determine the chance of endometriosis based on the answers given by a survey
-- I was involved in developing many different AI algorithms and testing them independently 
-- Talk about bayesian neural network
-- Difficulty with finding data, and adapting the right machine learning algorithm, 
-  - Trade offs between speed of ML algorithm and accuracy
+An interesting AI model from this is the bayesian neural network (BNN), this model uses probability distributions for it's learned weights. This allows for the model to model uncertainty along with it's predicitions. Every other model we trained was able to output a probability between 0 and 1. While the bayesian neural network was able to output an uncertainty along with this prediction (eg 0.75 ± 0.12). We did not end up pursuing this model though due to issues with implementing SHAP, and the model requiring a lot of computation time to train and run. Thus the model we ended up using was the Multilayered Perceptron, in other words a feed forward neural network. 
