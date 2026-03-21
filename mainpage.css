@@ -70,9 +70,11 @@ html{
     
   }
 
+
 .second-screen pre {
-  display: inline-block;
-  font-size: clamp(6px, 1.5vw, 14px);
+  max-width: 100%;
+  overflow-x: auto;
+  font-size: clamp(8px, 1.5vw, 16px);
 }
   
   @keyframes appear {
