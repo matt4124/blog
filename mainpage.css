@@ -1,6 +1,6 @@
 html{
     min-height: 100%;
-    overflow: hidden;
+    /* overflow: hidden; */
   }
   
   body {
@@ -28,7 +28,7 @@ html{
     opacity: 0%;
     color: rgb(43, 255, 0);
     text-shadow: 0 0 2px #75f54e;/*, 0 0 2px #b3f36a;*/
-    height: 100vh;
+    min-height: 100vh;
     width: 100vw;
     animation-name: appear;
     animation-duration: 1s;
