@@ -1,6 +1,6 @@
 html{
     min-height: 100%;
-    /* overflow: hidden; */
+    overflow: hidden;
   }
   
   body {
@@ -28,14 +28,23 @@ html{
     opacity: 0%;
     color: rgb(43, 255, 0);
     text-shadow: 0 0 2px #75f54e;/*, 0 0 2px #b3f36a;*/
-    min-height: 100vh;
+    height: 100vh;
     width: 100vw;
     animation-name: appear;
     animation-duration: 1s;
    
     animation-fill-mode: forwards;
-    
   }
+
+@media (max-width: 768px) {
+  html {
+    overflow-y: auto;
+  }
+
+  .second-screen {
+    min-height: 100vh;
+  }
+}
 
   .contents {
     width: 80%;
@@ -60,6 +69,11 @@ html{
     flex: 1;
     
   }
+
+.second-screen pre {
+  display: inline-block;
+  font-size: clamp(6px, 1.5vw, 14px);
+}
   
   @keyframes appear {
     from {
