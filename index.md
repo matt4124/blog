@@ -61,7 +61,7 @@ layout: null
                 {% for post in site.posts %}
                     <a href="/blog{{ post.url }}" class="project-card">
                         <div class="project-image">
-                            <img src="/images/thumbnails/{{ post.name | remove: '.md' | remove: '.markdown' }}.jpg" alt="{{ post.title }}" onerror="this.src='https://images.unsplash.com/photo-1517694712202-14dd9538aa97?w=500&q=80'">
+                            <img src="/images/thumbnails/{{ post.name | remove: '.md' | remove: '.markdown' }}.jpg" alt="{{ post.title }}" >
                             <div class="project-overlay">
                                 <p>{{ post.excerpt | strip_html | truncatewords: 20 }}</p>
                             </div>
