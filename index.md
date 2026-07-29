@@ -56,10 +56,26 @@ layout: default
             
             <div class="projects-grid">
                 {% for post in site.posts reversed %}
+                    {% assign post_name = post.name | remove: '.md' | remove: '.markdown' %}
+                    
                     <a href="{{ post.url }}" class="project-card">
                         <div class="project-image">
-                            <!-- Looks for image in /images/ folder with same name as post filename -->
-                            <img src="/images/{{ post.name | remove: '.md' | remove: '.markdown' }}.jpg" alt="{{ post.title }}" onerror="this.src='https://images.unsplash.com/photo-1517694712202-14dd9538aa97?w=500&q=80'">
+                            <!-- Look for image with same name as post -->
+                            {% if site.static_files %}
+                                {% assign image_found = false %}
+                                {% for file in site.static_files %}
+                                    {% if file.path contains post_name and file.extname == '.jpg' %}
+                                        <img src="/images/{{ post_name }}.jpg" alt="{{ post.title }}">
+                                        {% assign image_found = true %}
+                                        {% break %}
+                                    {% endif %}
+                                {% endfor %}
+                                {% unless image_found %}
+                                    <img src="https://images.unsplash.com/photo-1517694712202-14dd9538aa97?w=500&q=80" alt="{{ post.title }}">
+                                {% endunless %}
+                            {% else %}
+                                <img src="https://images.unsplash.com/photo-1517694712202-14dd9538aa97?w=500&q=80" alt="{{ post.title }}">
+                            {% endif %}
                         </div>
                         <div class="project-info">
                             <h3>{{ post.title }}</h3>
