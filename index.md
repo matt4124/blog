@@ -61,7 +61,7 @@ layout: null
                 {% for post in site.posts %}
                     <a href="/blog{{ post.url }}" class="project-card">
                         <div class="project-image">
-                            <img src="/images/thumbnails/{{ post.slug | remove: '.md' | remove: '.markdown' }}.jpg" alt="{{ post.title }}" >
+                            <img src="/blog/images/thumbnails/{{ post.slug | remove: '.md' | remove: '.markdown' }}.jpg" alt="{{ post.title }}" >
                             <div class="project-overlay">
                                 <p>{{ post.excerpt | strip_html | truncatewords: 20 }}</p>
                             </div>
