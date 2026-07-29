@@ -4,6 +4,8 @@ title: "Implementing MQTT for a Power Protection System"
 header: false
 ---
 
+*MQTT · Python · PSS®E · Power Protection · Mutual TLS · Digital Certificates · Cybersecurity · IoT*
+
 ## Overview
 
 Developed a demonstration of a secure MQTT-based communication system for coordinating two relay and circuit breaker systems through a central network coordinator.

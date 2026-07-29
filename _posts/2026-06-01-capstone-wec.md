@@ -4,6 +4,8 @@ title: "Single-Phase Linear Generator Simulation for WEC"
 header: false
 ---
 
+*Electromagnetics · Electrical Machines · Linear Generators · Renewable Energy · Wave Energy Conversion · Electrical Power Analysis · Design Optimisation · FEMM · Python*
+
 ## Overview
 
 Wave energy converters (WECs) are renewable energy systems that convert the mechanical energy contained in ocean waves into electrical power.
