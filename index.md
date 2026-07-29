@@ -55,7 +55,7 @@ layout: null
             <h2>Featured Projects</h2>
             
             <div class="projects-grid">
-                {% for post in site.posts reversed %}
+                {% for post in site.posts %}
                     <a href="/blog{{ post.url }}" class="project-card">
                         <div class="project-image">
                             <!-- Looks for image in /images/ folder with same name as post filename -->
