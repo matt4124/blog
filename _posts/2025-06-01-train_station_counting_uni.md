@@ -4,29 +4,75 @@ title: "Train Station Counting"
 header: false
 ---
 
-# Improving the train station efficiency for ENG30002 - Engineering Technology Sustainability Project
-*Semester 1, 2025*
+*Python · Machine Learning · Computer Vision · CNNs · CSRNet · Crowd Counting*
 
-#### The Problem
-During this project we were tasked as a group to design a solution to a sustainability challenge within our chosen majors. 
-Within my group we had 2 software majors, 1 mechatronics and 1 electrical/electronic engineering major (me).
-Our group initially decided to opt for the challenge of improving the efficiency of the Melbourne metro train network.  
-Obviously this was a very general problem, so we narrowed it down to specifically improving the ability of the train network to more efficiently move people to their destinations.
-The general idea behind this was basically to attract more people towards public transport, thus reducing cars on the road. 
+## Overview
 
-#### The Project Solution
-The solution we came to was basically a way to try to optimise the train times and number of train carriages of each individual train. 
-Our method to achieve this was a workflow, where data on the number of people was collected for each train platforms via platform sensors/cameras/ptv, then sent to an AI in order to predict the future number of people at each platform. This information would then be used in deciding on train times, and how many train carriages to send for each route.  
+As part of the ENG30002 Engineering Technology Sustainability Project in Semester 1, 2025, our group investigated ways to improve the efficiency and sustainability of Melbourne's metropolitan train network.
+
+The broader objective was to encourage greater use of public transport by improving the efficiency of the network and reducing reliance on private vehicles. We proposed a system that could dynamically optimise train schedules and carriage allocations based on predicted passenger demand at individual train stations.
+
+## The Problem
+
+Train passenger demand varies significantly throughout the day and across different stations. Fixed timetables and carriage allocations may therefore result in trains that are overcrowded in some situations while operating with excess capacity in others.
+
+Our proposed solution was a data-driven workflow that would:
+
+Collect passenger numbers from individual train platforms.
+Use historical and real-time data to predict future passenger demand.
+Optimise train schedules based on predicted demand.
+Adjust the number of carriages allocated to different services.
+
+This approach aimed to improve the efficiency of the network while providing a better experience for passengers.
+
+## My Role
+
+I was responsible for developing the passenger counting component of the proposed system.
+
+The objective was to estimate the number of people present on each train platform and provide this information as an input to the demand prediction system.
+
+I investigated several potential approaches, including:
+
+Pressure sensors installed on platforms
+Infrared sensors
+Wi-Fi-based device detection
+Camera-based computer vision
+
+I ultimately selected a camera-based computer vision approach, using an AI model to estimate the number of people visible in a platform image or video.
+
+This approach offered the potential for high accuracy while also making use of existing security camera infrastructure at train stations.
+
+## Developing the People Counting System
+
+I initially investigated developing a custom convolutional neural network (CNN) using publicly available people-counting datasets.
+
+However, the initial model experienced difficulties generalising to new images and handling different image dimensions. The performance was also affected by differences between the training datasets and the target environment of train station platforms.
+
+I therefore investigated alternative approaches and implemented CSRNet, a deep-learning architecture designed specifically for crowd counting.
+
+Using pretrained weights and further training on relevant datasets, I investigated how the model could be adapted to better generalise to crowded train station environments.
+
+The resulting system was demonstrated using live footage from a public camera in Rome, Italy, providing an example of how the proposed passenger-counting component could operate on real-world video footage.
+
+## System Workflow
+
+The proposed system connected passenger counting with the broader train network optimisation workflow.
+
+Platform Cameras → Passenger Counting → Demand Prediction → Train Scheduling → Carriage Allocation
+
+The passenger-counting system provided the initial data required to predict future passenger demand. This information could then be used to inform decisions about train frequency and the number of carriages required on different routes.
+
 ![Project Plan](/blog/images/uni_projects/sustainability_project_plan.png)
 
-#### My Part 
-My part in this project was the initial part of the workflow, where the number of people at each platform would be obtained and sent to the AI for predicting the future number of people. At first I explored a couple of options, platform pressure sensors, IR sensors and even a wifi network to count the number of phones in the area. Eventually though I settled for people counting via an image AI connected to a camera. 
-There were a few advantages of this approach, for one the image AI is one of the most accurate methods. As well, many train station platforms around Melbourne already possess security cameras, which can be accessed securely.  
+## Key Takeaways
 
-Initially I attempted to train my own convolutional neural network on people counting datasets from the web. I ran into issues with the performance of my CNN, mainly it was bad at dealing with different image dimensions, and generalising to new images. A part of this may have been due to the datasets I was using.  
+This project provided experience in applying machine learning and computer vision to a real-world sustainability problem.
 
-After this I moved onto implementing CSRNet, I used pretrained weights and trained it further on some specific datasets to better generalise to train station platforms. The following explains my data flow and the demonstrates an implementation that uses live footage taken from a public camera in Rome, Italy. 
+A key part of the project was adapting the technical approach when the initial CNN model did not perform as expected. Investigating CSRNet and pretrained models provided an opportunity to explore how specialised machine-learning architectures could better address the challenges of crowd counting.
+
+The project demonstrated how computer vision, predictive modelling, and transport data could potentially be combined to improve public transport efficiency and support more sustainable urban transportation.
 
 ![Project Explanation](/blog/images/uni_projects/sustainability_project_explanation.JPG)
 
 ![Project Demonstration](/blog/images/uni_projects/sustainability_project_demonstration.gif)
+
