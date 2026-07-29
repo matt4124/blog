@@ -45,7 +45,7 @@ layout: null
             </div>
             <div class="welcome-image">
                 
-                <img src="/blog/images/welcome_image.jpg" alt="Creative workspace">
+                <img src="/blog/images/welcome.jpg" alt="Creative workspace">
             </div>
         </div>
     </section>
