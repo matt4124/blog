@@ -20,7 +20,7 @@ layout: null
         <div class="navbar-container">
             <div class="navbar-left">
                 <div class="logo">M</div>
-                <span class="name">M. Hadkins</span>
+                <span class="name">atthew Hadkins</span>
             </div>
             <div class="navbar-right">
                 <a href="#welcome" class="nav-link active">Welcome</a>
@@ -33,8 +33,8 @@ layout: null
     <section id="welcome" class="welcome-section">
         <div class="welcome-container">
             <div class="welcome-content">
-                <h1>Hi, I'm M. Hadkins</h1>
-                <p class="subtitle">Creative Developer & Problem Solver</p>
+                <h1>Hi, I'm Matt</h1>
+                <p class="subtitle">Fourth Year Electrical and Electronics Engineering Student</p>
                 <p class="description">
                     Welcome to my portfolio. I'm passionate about creating innovative solutions that bridge the gap 
                     between creative vision and technical execution. With experience across full-stack development, 
@@ -44,7 +44,8 @@ layout: null
                 </p>
             </div>
             <div class="welcome-image">
-                <img src="https://images.unsplash.com/photo-1517694712202-14dd9538aa97?w=500&q=80" alt="Creative workspace">
+                
+                <img src="/blog/images/welcome_image.jpg" alt="Creative workspace">
             </div>
         </div>
     </section>
