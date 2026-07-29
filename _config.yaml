@@ -8,7 +8,7 @@ include:
   - CONTRIBUTING.md
   - ISSUE_TEMPLATE.md
   - PULL_REQUEST_TEMPLATE.md
-title: My Site
+title: Main Page
 description: Engineering Website blog
 # Custom permalink for posts
 # permalink: /blog/:year/:month/:day/:title/
