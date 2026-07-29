@@ -71,15 +71,15 @@ The generator consisted of a magnet and coil arrangement in which relative motio
 
 The induced voltage was investigated using the relationship between the number of coil turns and the rate of change of magnetic flux:
 
-[
-E = -N\frac{d\Phi}{dt}
-]
+
+$$E = -N\frac{d\Phi}{dt}$$
+
 
 where:
 
-(E) is the induced electromotive force
-(N) is the number of turns in the coil
-(\Phi) is the magnetic flux
+($E$) is the induced electromotive force
+($N$) is the number of turns in the coil
+($\Phi$) is the magnetic flux
 
 This relationship provided a basis for investigating how changes in the generator design could influence the electrical output.
 
