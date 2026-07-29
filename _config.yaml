@@ -10,6 +10,8 @@ include:
   - PULL_REQUEST_TEMPLATE.md
 title: My Site
 description: Engineering Website blog
+# Custom permalink for posts
+permalink: /blog/:year/:month/:day/:title/
 theme: minima
 minima:
 header_pages: []
