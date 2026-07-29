@@ -1,10 +1,14 @@
+---
+layout: default
+---
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
-    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="/index.css">
     
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -51,60 +55,18 @@
             <h2>Featured Projects</h2>
             
             <div class="projects-grid">
-                <!-- Project 1 -->
-                <a href="{% post_url 2024-06-01-circuitsimulator %}" class="project-card">
-                    <div class="project-image">
-                        <img src="https://images.unsplash.com/photo-1517694712202-14dd9538aa97?w=500&q=80" alt="Making this website">
-                    </div>
-                    <div class="project-info">
-                        <h3>Making this website</h3>
-                        <p class="project-type">Personal Project</p>
-                    </div>
-                </a>
-
-                <!-- Project 2 -->
-                <a href="{% post_url arduino_sensor_uni %}" class="project-card">
-                    <div class="project-image">
-                        <img src="https://images.unsplash.com/photo-1516534775068-bb57a2fb1d0d?w=500&q=80" alt="Arduino sensor system">
-                    </div>
-                    <div class="project-info">
-                        <h3>Arduino Sensor System</h3>
-                        <p class="project-type">University Project • Team</p>
-                    </div>
-                </a>
-
-                <!-- Project 3 -->
-                <a href="{% post_url endo_survey_uni %}" class="project-card">
-                    <div class="project-image">
-                        <img src="https://images.unsplash.com/photo-1576091160550-2173dba999ef?w=500&q=80" alt="Endometriosis detection tool">
-                    </div>
-                    <div class="project-info">
-                        <h3>Endometriosis Detection</h3>
-                        <p class="project-type">University Project • Team</p>
-                    </div>
-                </a>
-
-                <!-- Project 4 -->
-                <a href="{% post_url medi_application_uni %}" class="project-card">
-                    <div class="project-image">
-                        <img src="https://images.unsplash.com/photo-1576091160599-112ba73fbf91?w=500&q=80" alt="Medical application">
-                    </div>
-                    <div class="project-info">
-                        <h3>Doctor-Patient Platform</h3>
-                        <p class="project-type">University Project • Team</p>
-                    </div>
-                </a>
-
-                <!-- Project 5 -->
-                <a href="{% post_url train_station_counting_uni %}" class="project-card">
-                    <div class="project-image">
-                        <img src="https://images.unsplash.com/photo-1570531344ef-3bdd8e7a4cd0?w=500&q=80" alt="Metro train network">
-                    </div>
-                    <div class="project-info">
-                        <h3>Metro Network Analysis</h3>
-                        <p class="project-type">University Project • Team</p>
-                    </div>
-                </a>
+                {% for post in site.posts reversed %}
+                    <a href="{{ post.url }}" class="project-card">
+                        <div class="project-image">
+                            <!-- Looks for image in /images/ folder with same name as post filename -->
+                            <img src="/images/{{ post.name | remove: '.md' | remove: '.markdown' }}.jpg" alt="{{ post.title }}" onerror="this.src='https://images.unsplash.com/photo-1517694712202-14dd9538aa97?w=500&q=80'">
+                        </div>
+                        <div class="project-info">
+                            <h3>{{ post.title }}</h3>
+                            <p class="project-type">{{ post.date | date: "%B %Y" }}</p>
+                        </div>
+                    </a>
+                {% endfor %}
             </div>
         </div>
     </section>
