@@ -1,4 +1,15 @@
-theme: minima
 
-title: Matthew's Engineering Blog
-description: Electrical and Electronic Engineering Projects
+include:
+  - CONTRIBUTING.md
+  - README.md
+  - LICENSE.md
+  - COPYING.md
+  - CODE_OF_CONDUCT.md
+  - CONTRIBUTING.md
+  - ISSUE_TEMPLATE.md
+  - PULL_REQUEST_TEMPLATE.md
+title: My Site
+description: Engineering Website blog
+theme: minima
+minima:
+header_pages: []
