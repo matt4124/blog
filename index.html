@@ -1,46 +1,162 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf8">
+<head>
+    <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Blog</title>
-    <link rel="stylesheet" href="index.css">
-
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="mainpage.css">
+    
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
-  </head>
+    <link href="https://fonts.googleapis.com/css2?family=Varela+Round:wght@400&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
 <body>
-  
+    <!-- Top Navigation Bar -->
+    <nav class="navbar">
+        <div class="navbar-container">
+            <div class="navbar-left">
+                <div class="logo">M</div>
+                <span class="name">M. Hadkins</span>
+            </div>
+            <div class="navbar-right">
+                <a href="#welcome" class="nav-link active">Welcome</a>
+                <a href="#projects" class="nav-link">Projects</a>
+            </div>
+        </div>
+    </nav>
 
-<div class="first-screen" id = "first-screen">
-<h1 class="title-card"> 
-Matt's Projects                                                                                                                    
-</h1>
+    <!-- Welcome Section -->
+    <section id="welcome" class="welcome-section">
+        <div class="welcome-container">
+            <div class="welcome-content">
+                <h1>Hi, I'm M. Hadkins</h1>
+                <p class="subtitle">Creative Developer & Problem Solver</p>
+                <p class="description">
+                    Welcome to my portfolio. I'm passionate about creating innovative solutions that bridge the gap 
+                    between creative vision and technical execution. With experience across full-stack development, 
+                    embedded systems, and collaborative team projects, I bring a unique perspective to every challenge. 
+                    From designing applications that connect healthcare professionals to building systems that count commuters, 
+                    each project has shaped my approach to thoughtful, user-centered design.
+                </p>
+            </div>
+            <div class="welcome-image">
+                <img src="https://images.unsplash.com/photo-1517694712202-14dd9538aa97?w=500&q=80" alt="Creative workspace">
+            </div>
+        </div>
+    </section>
 
-<div class="useraccount">
-  <p>
-    <span >user@coolblog</span>
-    <span >:</span>
-  <span>~/Desktop/code_projects/blog</span>
-    <span >$  </span>
-  </p>
-</div>
-<div class="typewriter">
-<p>gcc my_completed_projects.c && ./my_completed_projects</p>
-</div>
-</div>
-  </div>
-</div>
+    <!-- Projects Grid Section -->
+    <section id="projects" class="projects-section">
+        <div class="projects-container">
+            <h2>Featured Projects</h2>
+            
+            <div class="projects-grid">
+                <!-- Project 1 -->
+                <a href="/blog/articles/circuitsimulator.html" class="project-card">
+                    <div class="project-image">
+                        <img src="https://images.unsplash.com/photo-1517694712202-14dd9538aa97?w=500&q=80" alt="Making this website">
+                    </div>
+                    <div class="project-info">
+                        <h3>Making this website</h3>
+                        <p class="project-type">Personal Project</p>
+                    </div>
+                </a>
 
-<script>
-  var timer = setTimeout(function() {
-            window.location='https://matt4124.github.io/blog/mainpage.html'
-        }, 7000);
-</script>
+                <!-- Project 2 -->
+                <a href="/blog/articles/arduino_sensor_uni.html" class="project-card">
+                    <div class="project-image">
+                        <img src="https://images.unsplash.com/photo-1516534775068-bb57a2fb1d0d?w=500&q=80" alt="Arduino sensor system">
+                    </div>
+                    <div class="project-info">
+                        <h3>Arduino Sensor System</h3>
+                        <p class="project-type">University Project • Team</p>
+                    </div>
+                </a>
+
+                <!-- Project 3 -->
+                <a href="/blog/articles/endo_survey_uni.html" class="project-card">
+                    <div class="project-image">
+                        <img src="https://images.unsplash.com/photo-1576091160550-2173dba999ef?w=500&q=80" alt="Endometriosis detection tool">
+                    </div>
+                    <div class="project-info">
+                        <h3>Endometriosis Detection</h3>
+                        <p class="project-type">University Project • Team</p>
+                    </div>
+                </a>
+
+                <!-- Project 4 -->
+                <a href="/blog/articles/medi_application_uni.html" class="project-card">
+                    <div class="project-image">
+                        <img src="https://images.unsplash.com/photo-1576091160599-112ba73fbf91?w=500&q=80" alt="Medical application">
+                    </div>
+                    <div class="project-info">
+                        <h3>Doctor-Patient Platform</h3>
+                        <p class="project-type">University Project • Team</p>
+                    </div>
+                </a>
+
+                <!-- Project 5 -->
+                <a href="/blog/articles/train_station_counting_uni.html" class="project-card">
+                    <div class="project-image">
+                        <img src="https://images.unsplash.com/photo-1570531344ef-3bdd8e7a4cd0?w=500&q=80" alt="Metro train network">
+                    </div>
+                    <div class="project-info">
+                        <h3>Metro Network Analysis</h3>
+                        <p class="project-type">University Project • Team</p>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <p>Get in touch</p>
+            <div class="footer-links">
+                <a href="mailto:mjhadkins42@gmail.com">Email</a>
+                <span class="divider">•</span>
+                <a href="tel:+61407293991">Phone</a>
+            </div>
+            <p class="copyright">© 2024 M. Hadkins. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script>
+        // Smooth scroll and active nav link
+        document.querySelectorAll('.nav-link').forEach(link => {
+            link.addEventListener('click', function(e) {
+                e.preventDefault();
+                const targetId = this.getAttribute('href').substring(1);
+                const targetSection = document.getElementById(targetId);
+                
+                document.querySelectorAll('.nav-link').forEach(l => l.classList.remove('active'));
+                this.classList.add('active');
+                
+                targetSection.scrollIntoView({ behavior: 'smooth' });
+            });
+        });
+
+        // Update active nav link on scroll
+        window.addEventListener('scroll', function() {
+            const sections = document.querySelectorAll('section');
+            const navLinks = document.querySelectorAll('.nav-link');
+            
+            let current = '';
+            sections.forEach(section => {
+                const sectionTop = section.offsetTop;
+                if (pageYOffset >= sectionTop - 200) {
+                    current = section.getAttribute('id');
+                }
+            });
+
+            navLinks.forEach(link => {
+                link.classList.remove('active');
+                if (link.getAttribute('href').substring(1) === current) {
+                    link.classList.add('active');
+                }
+            });
+        });
+    </script>
 </body>
 </html>
-
-
-
-
