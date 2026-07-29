@@ -54,12 +54,16 @@ layout: null
         <div class="projects-container">
             <h2>Featured Projects</h2>
             
+            
+
             <div class="projects-grid">
                 {% for post in site.posts %}
                     <a href="/blog{{ post.url }}" class="project-card">
                         <div class="project-image">
-                            <!-- Looks for image in /images/ folder with same name as post filename -->
                             <img src="/images/{{ post.name | remove: '.md' | remove: '.markdown' }}.jpg" alt="{{ post.title }}" onerror="this.src='https://images.unsplash.com/photo-1517694712202-14dd9538aa97?w=500&q=80'">
+                            <div class="project-overlay">
+                                <p>{{ post.excerpt | strip_html | truncatewords: 20 }}</p>
+                            </div>
                         </div>
                         <div class="project-info">
                             <h3>{{ post.title }}</h3>
