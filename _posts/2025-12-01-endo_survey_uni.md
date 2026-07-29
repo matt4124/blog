@@ -1,7 +1,6 @@
 ---
 layout: post
 title: "Making an AI to detect Endometriosis"
-date: 2024-06-01
 header: false
 ---
 

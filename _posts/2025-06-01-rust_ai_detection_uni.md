@@ -1,7 +1,6 @@
 ---
 layout: post
 title: "Detecting Rust with AI "
-date: 2024-06-01
 header: false
 ---
 

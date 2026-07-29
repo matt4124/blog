@@ -1,7 +1,6 @@
 ---
 layout: post
 title: "Making a Circuit Simulator"
-date: 2024-06-01
 header: false
 ---
 

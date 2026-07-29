@@ -1,7 +1,6 @@
 ---
 layout: post
 title: "Medical Communication App"
-date: 2024-06-01
 header: false
 ---
 

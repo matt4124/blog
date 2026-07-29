@@ -1,7 +1,6 @@
 ---
 layout: post
 title: "Train Station Counting"
-date: 2024-06-01
 header: false
 ---
 

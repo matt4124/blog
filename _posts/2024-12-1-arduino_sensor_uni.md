@@ -1,7 +1,6 @@
 ---
 layout: post
 title: "Making an arduino enabled sensor for ENG20009 - Engineering Technology Inquiry Project"
-date: 2024-06-01
 header: false
 ---
 
