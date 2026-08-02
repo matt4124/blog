@@ -162,7 +162,9 @@ body {
 }
 
 .nav-link.active {
-    color: #667eea;
+    color: white;
+    -webkit-text-stroke: 2px black;
+
 }
 
 .nav-link.active::after {
