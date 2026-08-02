@@ -19,8 +19,7 @@ layout: null
     <nav class="navbar">
         <div class="navbar-container">
             <div class="navbar-left">
-                <div class="logo">M</div>
-                <image src="/blog/images/m_icon.webp" class="logo">
+=                <image src="/blog/images/m_icon.webp" class="logo"> </image>
                 <span class="name">atthew Hadkins</span>
             </div>
             <div class="navbar-right">
