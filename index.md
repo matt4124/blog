@@ -81,9 +81,9 @@ layout: null
         <div class="footer-content">
             <p>Get in touch</p>
             <div class="footer-links">
-                <a href="mailto:mjhadkins42@gmail.com">Email</a>
-                <span class="divider">•</span>
-                <a href="tel:+61407293991">Phone</a>
+                <a href="mailto:mjhadkins42@gmail.com">mjhadkins42@gmail.com</a>
+                <span class="divider"> • </span>
+                <a href="tel:+61407293991">0407293991</a>
             </div>
             <p class="copyright">© 2024 M. Hadkins. All rights reserved.</p>
         </div>
