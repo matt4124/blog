@@ -19,7 +19,7 @@ layout: null
     <nav class="navbar">
         <div class="navbar-container">
             <div class="navbar-left">
-                <image src="/blog/images/m_icon.png" class="logo"> </image>
+                <image src="/blog/images/m_icon_simple.png" class="logo"> </image>
                 <span class="name">atthew Hadkins</span>
             </div>
             <div class="navbar-right">

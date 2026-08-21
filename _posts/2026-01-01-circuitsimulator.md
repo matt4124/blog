@@ -12,7 +12,7 @@ I developed an AC Newton–Raphson power-flow solver in Rust to analyse electric
 
 The project was an opportunity to deepen my understanding of power-system analysis and numerical methods by implementing the solver from first principles rather than relying on existing power-system simulation software.
 
-![Complex Project](/blog/images/uni_projects/rust_power_flow/complex_window.JPG)
+![Basic Window Demonstration](/blog/images/uni_projects/rust_power_flow/basic_window.JPG)
 
 
 #### Why?
