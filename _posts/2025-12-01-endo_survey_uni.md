@@ -39,10 +39,7 @@ After completing the survey, a user would receive a prediction from the machine-
 
 The SHAP explanation would show how individual survey responses contributed to the model's prediction, providing greater transparency into the reasoning behind the result.
 
-![Survey Question Example](/blog/images/uni_projects/endo_ai_question.JPG). 
-![Survey Results Example](/blog/images/uni_projects/endo_ai_results.JPG). 
-![Trained AI Models](/blog/images/uni_projects/endo_ai_models.JPG)  
-![AI Models Compared Performance](/blog/images/uni_projects/endo_ai_model_comparisons.JPG) 
+![Survey Question Example](/blog/images/uni_projects/endometriosis_survey/endo_ai_question.JPG). 
 
 
 ## My Role
@@ -59,9 +56,16 @@ My work included:
 - Contributing to the selection of the final model used by the proposed system
 - Model Development and Comparison
 
+
+![Trained AI Models](/blog/images/uni_projects/endometriosis_survey/endo_ai_models.JPG)  
+
+
 Rather than selecting a model based on a single performance metric, we trained and compared multiple machine-learning approaches using several measures of performance.
 
 The models were evaluated and their results were combined into an overall comparative score to help identify the most suitable approach for the application.
+
+![AI Models Compared Performance](/blog/images/uni_projects/endometriosis_survey/endo_ai_model_comparisons.JPG) 
+
 
 This process demonstrated that selecting a model for a healthcare application involves more than simply choosing the model with the highest predictive performance. Factors such as computational requirements and the ability to explain predictions also need to be considered.
 
@@ -90,6 +94,9 @@ The final system used a Multilayer Perceptron (MLP), a type of feed-forward neur
 The MLP provided a practical balance between predictive performance, computational requirements, and compatibility with the explainability methods required by the project.
 
 SHAP was then used to provide insight into how individual survey responses influenced the model's output.
+
+![Survey Results Example](/blog/images/uni_projects/endometriosis_survey/endo_ai_results.JPG). 
+
 
 ## Key Takeaways
 
