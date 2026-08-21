@@ -36,11 +36,7 @@ layout: null
                 <h1>Hi, I'm Matt</h1>
                 <p class="subtitle">Fourth Year Electrical and Electronics Engineering Student</p>
                 <p class="description">
-                    Welcome to my portfolio. I'm passionate about creating innovative solutions that bridge the gap 
-                    between creative vision and technical execution. With experience across full-stack development, 
-                    embedded systems, and collaborative team projects, I bring a unique perspective to every challenge. 
-                    From designing applications that connect healthcare professionals to building systems that count commuters, 
-                    each project has shaped my approach to thoughtful, user-centered design.
+                    Welcome to my portfolio. I'm a fourth year electrical and electronics engineering student with a strong interest in electrical power systems, power safety systems, renewable energy, embedded systems and engineering software. I enjoy combining hardware and software to solve practical engineering problems, and am always keen to learn and apply new tools, methods and technologies. I have experience in  circuit design, simulation modelling, data analysis, and programming in Python and Rust. I also enjoy collaborating with others, sharing ideas, and learning from different persepctives to develop practical and effective solutions. 
                 </p>
             </div>
             <div class="welcome-image">
