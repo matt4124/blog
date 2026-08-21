@@ -4,6 +4,8 @@ title: "Power Flow Solver"
 header: false
 ---
 
+*Power Flow Simulator · Steady State Analysis · Newton-Raphson · Power Systems · Rust · Numerical Methods · Programming*
+
 #### Overview
 
 I developed an AC Newton–Raphson power-flow solver in Rust to analyse electrical power networks. The simulator calculates bus voltage magnitudes and phase angles, power flows, and network losses under different operating conditions.
