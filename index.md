@@ -25,6 +25,7 @@ layout: null
             <div class="navbar-right">
                 <a href="#welcome" class="nav-link active">Welcome</a>
                 <a href="#projects" class="nav-link">Projects</a>
+                <a href="#contact" class="nav-link">Contact</a>
             </div>
         </div>
     </nav>
@@ -70,6 +71,19 @@ layout: null
                 {% endfor %}
             </div>
         </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section">
+        <div class="contact-container">
+            <h2>Contact</h2>
+        <p>I'm always happy to discuss engineering projects, opportunities, or just have a chat.</p>
+
+        <div class="contact-links">
+            <a href="mailto:mjhadkins42@gmail.com">mjhadkins42@gmail.com</a>
+            <a href="tel:+61407293991">0407293991</a>
+        </div>
+    </div>
     </section>
 
     <!-- Footer -->
