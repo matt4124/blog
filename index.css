@@ -302,6 +302,35 @@ body {
     }
 }
 
+.contact-section {
+    padding: 100px 20px;
+}
+
+.contact-container {
+    max-width: 1000px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.contact-container h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.contact-container p {
+    margin-bottom: 30px;
+}
+
+.contact-links {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.contact-links a {
+    text-decoration: none;
+}
+
 .project-card {
     position: relative;
     border-radius: 12px;
