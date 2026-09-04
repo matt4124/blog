@@ -18,3 +18,4 @@ header_pages: []
 
 exclude:
   - archived_posts/
+  - README.md
