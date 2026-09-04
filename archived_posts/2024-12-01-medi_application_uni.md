@@ -1,8 +1,4 @@
----
-layout: post
-title: "Medical Communication App"
-header: false
----
+
 
 
 ## Medical Communication Application developed for ENG20010 - Engineering Technology Design Project
