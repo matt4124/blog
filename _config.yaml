@@ -15,3 +15,6 @@ description: Engineering Website blog
 theme: minima
 minima:
 header_pages: []
+
+exclude:
+  - archived_posts/
