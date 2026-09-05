@@ -4,7 +4,12 @@ title: "Train Station Counting"
 header: false
 ---
 
-*Python · Machine Learning · Computer Vision · CNNs · CSRNet · Crowd Counting*
+<span class="tag">Machine Learning</span> ·
+<span class="tag">Python</span> ·
+<span class="tag">Computer Vision</span> ·
+<span class="tag">Convolutional Neural Network</span> ·
+<span class="tag">CSRNet</span> ·
+<span class="tag">Crowd Counting</span>
 
 ## Overview
 

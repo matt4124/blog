@@ -4,7 +4,13 @@ title: "Single-Phase Linear Generator Simulation for WEC"
 header: false
 ---
 
-*Electromagnetics · Electrical Machines · Linear Generators · Renewable Energy · Wave Energy Conversion · Electrical Power Analysis · Design Optimisation · FEMM · Python*
+<span class="tag">FEMM</span> ·
+<span class="tag">Python</span> ·
+<span class="tag">Electromagnetics</span> ·
+<span class="tag">Linear Generator</span> ·
+<span class="tag">Renewable Energy</span> ·
+<span class="tag">Wave Energy Conversion</span> ·
+<span class="tag">Simulation Design</span> ·
 
 ## Overview
 

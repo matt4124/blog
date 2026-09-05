@@ -4,7 +4,15 @@ title: "Implementing MQTT for a Power Protection System"
 header: false
 ---
 
-*MQTT · Python · PSS®E · Power Protection · Mutual TLS · Digital Certificates · Cybersecurity · IoT*
+
+<span class="tag">PSS®E</span> ·
+<span class="tag">MQTT</span> ·
+<span class="tag">Python</span> ·
+<span class="tag">Power Protection</span> ·
+<span class="tag">Mutual TLS</span> ·
+<span class="tag">Digital Certificates</span> ·
+<span class="tag">Cybersecurity</span> ·
+<span class="tag">IoT</span>
 
 ## Overview
 

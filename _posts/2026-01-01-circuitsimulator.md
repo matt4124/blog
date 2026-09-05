@@ -4,6 +4,13 @@ title: "Power Flow Solver"
 header: false
 ---
 
+<span class="tag">Power Flow Simulator</span> ·
+<span class="tag">Power Systems</span> ·
+<span class="tag">Newton-Raphson Solver</span> ·
+<span class="tag">Rust</span> ·
+<span class="tag">Steady State Analysis</span> ·
+<span class="tag">Programming</span>
+
 *Power Flow Simulator · Steady State Analysis · Newton-Raphson · Power Systems · Rust · Numerical Methods · Programming*
 
 #### Overview

@@ -4,6 +4,13 @@ title: "Making an AI to detect Endometriosis"
 header: false
 ---
 
+<span class="tag">Machine Learning</span> ·
+<span class="tag">Pytorch</span> ·
+<span class="tag">Python</span> ·
+<span class="tag">Multilayer Perceptron</span> ·
+<span class="tag">Bayesian Neural Network</span> ·
+<span class="tag">SHAP</span>
+
 *Python · Machine Learning · Neural Networks · Multilayer Perceptron · Bayesian Neural Networks · SHAP · Explainable AI*
 
 ## Overview

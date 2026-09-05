@@ -4,7 +4,15 @@ title: "Developing an LC Sinker Electrical Discharge Machine (WIP)"
 header: false
 ---
 
-*CAD · Circuit Design · Power System Design · High Voltage Protection · C++ · Arduino · LC Circuits · Control System · Mechanical Design*
+<span class="tag">Circuit Design</span> ·
+<span class="tag">CAD</span> ·
+<span class="tag">Power System Design</span> ·
+<span class="tag">C++</span> ·
+<span class="tag">High Voltage Protection</span> ·
+<span class="tag">Arduino</span> 
+<span class="tag">LC Circuits</span> ·
+<span class="tag">Control System</span> ·
+<span class="tag">Mechanical System</span> ·
 
 
 
