@@ -107,7 +107,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    font-family: 'Varela Round', sans-serif;
+    /*font-family: 'Varela Round', sans-serif;*/
     font-size: 1.5rem;
     font-weight: 600;
     color: #ffffff;
@@ -120,7 +120,7 @@ body {
 }
 
 .name {
-    font-family: 'Varela Round', sans-serif;
+    /*font-family: 'Varela Round', sans-serif;*/
     font-size: 1.25rem;
     font-weight: 600;
     color: #1a1a1a;
@@ -197,7 +197,7 @@ body {
 }
 
 .welcome-content h1 {
-    font-family: 'Varela Round', sans-serif;
+    /*font-family: 'Varela Round', sans-serif;*/
     font-size: clamp(2rem, 5vw, 3.5rem);
     font-weight: 600;
     color: #1a1a1a;
@@ -261,7 +261,7 @@ body {
 }
 
 .projects-container h2 {
-    font-family: 'Varela Round', sans-serif;
+    /* font-family: 'Varela Round', sans-serif; */
     font-size: clamp(2rem, 4vw, 3rem);
     font-weight: 600;
     color: #1a1a1a;
@@ -380,7 +380,7 @@ body {
 }
 
 .project-info h3 {
-    font-family: 'Varela Round', sans-serif;
+    /*font-family: 'Varela Round', sans-serif;*/
     font-size: 1.1rem;
     font-weight: 600;
     color: #1a1a1a;
