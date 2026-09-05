@@ -116,7 +116,7 @@ body {
 
 .logo:hover {
     transform: scale(1.05);
-    box-shadow: 0 8px 16px rgba(173, 173, 173, 0.4);
+    /*box-shadow: 0 8px 16px rgba(173, 173, 173, 0.4);*/
 }
 
 .name {
