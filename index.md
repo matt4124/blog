@@ -80,7 +80,7 @@ layout: null
         <p>I'm always happy to discuss engineering projects, opportunities, or just have a chat.</p>
 
         <div class="contact-links">
-            <a href="mailto:mjhadkins42@gmail.com">mjhadkins42@gmail.com</a>
+            <a href="mailto:mjhadkins42@gmail.com">mjhadkins42@gmail.com</a><br>
             <a href="tel:+61407293991">0407293991</a>
         </div>
     </div>
@@ -90,11 +90,11 @@ layout: null
     <footer class="footer">
         <div class="footer-content">
             <p>Get in touch</p>
-            <div class="footer-links">
+            /*<div class="footer-links">
                 <a href="mailto:mjhadkins42@gmail.com">mjhadkins42@gmail.com</a>
                 <span class="divider"> • </span>
                 <a href="tel:+61407293991">0407293991</a>
-            </div>
+            </div>*/
             <p class="copyright">© 2024 M. Hadkins. All rights reserved.</p>
         </div>
     </footer>
