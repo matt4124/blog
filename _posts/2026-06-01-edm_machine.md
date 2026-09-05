@@ -15,18 +15,20 @@ header: false
 <span class="tag">Mechanical System</span> ·
 
 
+## Overview
+I am currently in the process of developing a sinker Electrical Discharge Machine (EDM), which is a device that is able to shape metal parts using controlled electrical sparks. A sinker EDM pushes a conductive electrode into a metal piece in order to shape it.
+The purpose of this personal project is to gain experience in building and developing a complex electro-mechanical system.
 
-I am currently in the process of developing a sinker Electrical Discharge Machine (EDM), which is a device that is able to shape metal parts using controlled electrical sparks. A sinker EDM pushes a conductive electrode into a metal piece in order to shape it. 
-
-The purpose of this personal project is to gain experience in building and developing a complex electro-mechanical system. As well conventional Sinker Electrical Discharge Machines are expensive and complex to use. Developing a low cost system allows for the opportunity to operate EDM machine without the hefty price tag.  
-
-
-
+## Mechanical Design
+With the mechanical design I aimed to design a simple single-axis movement mechanism, it's important for it to stay aligned along it's axis. The platform would be driven by a lead screw driven by a stepper motor. 
 ![EDM Mechanical](/blog/images/uni_projects/edm_machine/edm_mechanical.JPG)
 
 
-
+## Electrical Design
+For the electrical design I opted to go with an LC type spark generator, essentially it works similarly to a conventional boost converter by using an inductor and capacitor to increase the voltage to around 200V, enough to generate a spark between the electrodes.
+The circuit also uses electrical isolation to separate the high and low voltage components. As well it controls a water pump, the stepper motor and an lcd screen for the user iterface. 
 ![EDM Schematic](/blog/images/uni_projects/edm_machine/schematic.JPG)
 
+## Assembled Project
 
 ![EDM Electrical Demonstration](/blog/images/uni_projects/edm_machine/electrical_demonstration.JPG)
