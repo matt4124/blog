@@ -20,17 +20,11 @@ I am currently in the process of developing a sinker Electrical Discharge Machin
 The purpose of this personal project is to gain experience in building and developing a complex electro-mechanical system.
 
 ## Mechanical Design
-With the mechanical design I aimed to design a simple single-axis movement mechanism, it's important for it to stay aligned along it's axis. The platform would be driven by a lead screw driven by a stepper motor. 
-![EDM Mechanical](/blog/images/uni_projects/edm_machine/edm_mechanical.JPG)
-
-
 <div class="project-media">
 
     <div class="project-media-text">
         <p>
-            I designed the mechanical structure of the EDM to provide a rigid
-            platform for the electrode and workpiece. The design was modelled
-            in CAD before manufacturing.
+            With the mechanical design I aimed to design a simple single-axis movement mechanism. The platform would be driven by a lead screw driven by a stepper motor. The middle platform would be attached to the electrode. As the spark gap is controlled by the distance between between the electrode and workpiece, it's important that the mechanism doesn't have significant vibrations or movement error. 
         </p>
     </div>
 
