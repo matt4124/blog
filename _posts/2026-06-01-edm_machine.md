@@ -23,13 +23,13 @@ The purpose of this personal project is to gain experience in building and devel
 <div class="project-media">
 
     <div class="project-media-text">
-        <p>
+    <p>
             With the mechanical design I aimed to design a simple single-axis movement mechanism. The platform would be driven by a lead screw driven by a stepper motor. The middle platform would be attached to the electrode. As the spark gap is controlled by the distance between between the electrode and workpiece, it's important that the mechanism doesn't have significant vibrations or movement error. 
         </p>
     </div>
 
     <div class="project-media-image">
-        <img src="/blog/images/uni_projects/edm_machine/edm_mechanical.JPG"
+    <img src="/blog/images/uni_projects/edm_machine/edm_mechanical.JPG"
              alt="CAD model of the EDM mechanical system"
              width=30%>
     </div>
