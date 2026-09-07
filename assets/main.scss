@@ -5,6 +5,8 @@
 
 /* Your custom styling goes below here */
 
+
+
 .post-content {
     font-size: 1.05rem;
     line-height: 1.7;
@@ -32,4 +34,26 @@
     border: 1px solid #ccc;
     border-radius: 20px;
     font-size: 0.85rem;
+}
+
+
+.project-media {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    margin: 30px 0;
+}
+
+.project-media-text {
+    flex: 1;
+}
+
+.project-media-image {
+    flex: 1;
+}
+
+.project-media-image img {
+    width: 100%;
+    height: auto;
+    display: block;
 }
