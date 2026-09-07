@@ -41,8 +41,4 @@ For the electrical design I opted to go with an LC type spark generator, essenti
 The circuit also uses electrical isolation to separate the high and low voltage components. As well it controls a water pump, the stepper motor and an lcd screen for the user iterface. 
 ![EDM Schematic](/blog/images/uni_projects/edm_machine/schematic.JPG)
 
-
-
-## Assembled Project
-
 ![EDM Electrical Demonstration](/blog/images/uni_projects/edm_machine/electrical_demonstration.JPG)
