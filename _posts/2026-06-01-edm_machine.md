@@ -24,10 +24,29 @@ With the mechanical design I aimed to design a simple single-axis movement mecha
 ![EDM Mechanical](/blog/images/uni_projects/edm_machine/edm_mechanical.JPG)
 
 
+<div class="project-media">
+
+    <div class="project-media-text">
+        <p>
+            I designed the mechanical structure of the EDM to provide a rigid
+            platform for the electrode and workpiece. The design was modelled
+            in CAD before manufacturing.
+        </p>
+    </div>
+
+    <div class="project-media-image">
+        <img src="/blog/images/uni_projects/edm_machine/edm_mechanical.JPG"
+             alt="CAD model of the EDM mechanical system">
+    </div>
+
+</div>
+
 ## Electrical Design
 For the electrical design I opted to go with an LC type spark generator, essentially it works similarly to a conventional boost converter by using an inductor and capacitor to increase the voltage to around 200V, enough to generate a spark between the electrodes.
 The circuit also uses electrical isolation to separate the high and low voltage components. As well it controls a water pump, the stepper motor and an lcd screen for the user iterface. 
 ![EDM Schematic](/blog/images/uni_projects/edm_machine/schematic.JPG)
+
+
 
 ## Assembled Project
 
