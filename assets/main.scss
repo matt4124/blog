@@ -52,8 +52,15 @@
     flex: 1;
 }
 
-.project-media-image img {
+/*.project-media-image img {
     width: 100%;
     height: auto;
+    display: block;
+}*/
+
+.project-media-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
     display: block;
 }
