@@ -21,8 +21,8 @@ The purpose of this personal project is to gain experience in building and devel
 
 <div class="project-media">
     <div class="project-media-text">
+    <h2 id = "overview"> Mechanical Design </h2>
     <p>
-           <h2 id = "overview"> Mechanical Design </h2>
 
             With the mechanical design I aimed to design a simple single-axis movement mechanism. The platform would be driven by a lead screw driven by a stepper motor. The middle platform would be attached to the electrode. As the spark gap is controlled by the distance between between the electrode and workpiece, it's important that the mechanism doesn't have significant vibrations or movement error. 
         </p>
