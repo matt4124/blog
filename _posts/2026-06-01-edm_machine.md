@@ -29,7 +29,7 @@ The purpose of this personal project is to gain experience in building and devel
         </p>
     </div>
 
-<div class="project-media-image" width="50%">
+<div class="project-media-image" style="width:50%">
     <img src="/blog/images/uni_projects/edm_machine/edm_mechanical.JPG"
              alt="CAD model of the EDM mechanical system"
              width="100%">
