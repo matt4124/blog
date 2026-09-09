@@ -32,7 +32,7 @@ The purpose of this personal project is to gain experience in building and devel
 <div class="project-media-image">
     <img src="/blog/images/uni_projects/edm_machine/edm_mechanical.JPG"
              alt="CAD model of the EDM mechanical system"
-             width=30%>
+             width="30%">
     </div>
 
 </div>
