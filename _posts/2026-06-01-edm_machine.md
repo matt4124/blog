@@ -19,12 +19,11 @@ header: false
 I am currently in the process of developing a sinker Electrical Discharge Machine (EDM), which is a device that is able to shape metal parts using controlled electrical sparks. A sinker EDM pushes a conductive electrode into a metal piece in order to shape it.
 The purpose of this personal project is to gain experience in building and developing a complex electro-mechanical system.
 
-## Mechanical Design
-
-
 <div class="project-media">
     <div class="project-media-text">
     <p>
+           ## Mechanical Design
+
             With the mechanical design I aimed to design a simple single-axis movement mechanism. The platform would be driven by a lead screw driven by a stepper motor. The middle platform would be attached to the electrode. As the spark gap is controlled by the distance between between the electrode and workpiece, it's important that the mechanism doesn't have significant vibrations or movement error. 
         </p>
     </div>
